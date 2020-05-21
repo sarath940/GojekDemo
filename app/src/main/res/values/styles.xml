@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:popupMenuStyle">@style/PopUpTheme</item>
+    </style>
+
+    <style name="PopUpTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:popupBackground">@drawable/rounded_corner</item>
+    </style>
+
+    <style name="row_text_title_style">
+        <item name="android:textColor">@color/sub_icons_text_color</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/row_text_name_size</item>
+
+    </style>
+    <style name="row_sub_text_title_style">
+        <item name="android:textColor">@color/sub_icons_text_color</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">@dimen/row_sub_text_name_size</item>
+
+    </style>
+
+    <style name="row_sub_text_chinese_title_style">
+        <item name="android:textColor">@color/sub_icons_text_color</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">@dimen/row_text_name_size</item>
+
+    </style>
+
+    <style name="retry_button_text_style">
+    <item name="android:textColor">@color/retry_button_text_color</item>
+    <item name="android:fontFamily">@font/roboto_medium</item>
+    <item name="android:textSize">@dimen/row_sub_text_name_size</item>
+
+</style>
+
+    <style name="retry_text_style">
+        <item name="android:textColor">@color/retry_main_text_color</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/something_text_name_size</item>
+
+    </style>
+
+    <style name="retry_sub_text_style">
+        <item name="android:textColor">@color/retry_sub_main_text_color</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/row_sub_text_name_size</item>
+
+    </style>
+</resources>

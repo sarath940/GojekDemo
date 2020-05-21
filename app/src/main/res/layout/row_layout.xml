@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/row_text_margin"
+    android:layout_marginBottom="@dimen/row_text_margin"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/user_image"
+            android:layout_width="@dimen/x_large_margin"
+            android:layout_height="@dimen/x_large_margin"
+            android:layout_marginLeft="@dimen/medium_margin"
+            android:scaleType="fitCenter" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/medium_margin"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/text_title"
+                style="@style/row_text_title_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/sub_title_text"
+                style="@style/row_sub_text_title_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+        <View
+            android:id="@+id/row_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:background="@color/row_divider_color"
+            android:layout_marginStart="@dimen/xx_small_margin"/>
+    </LinearLayout>
+
+    <com.example.gojekdemo.util.ExpandableLinearLayout
+        android:id="@+id/expand_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:expandDuration="500"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="@dimen/x_small_margin">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_title_chinese"
+            style="@style/row_sub_text_chinese_title_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/medium_margin" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/x_small_margin">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginEnd="@dimen/medium_margin">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/circle_image"
+                    android:layout_width="@dimen/medium_margin"
+                    android:layout_height="@dimen/medium_margin"
+                    android:layout_marginEnd="@dimen/xx_small_margin" />
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/circle_image_text"
+                    style="@style/row_text_title_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/medium_margin" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginEnd="@dimen/medium_margin">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/star_image"
+                    android:layout_width="@dimen/medium_margin"
+                    android:layout_height="@dimen/medium_margin"
+                    android:layout_marginEnd="@dimen/xx_small_margin" />
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/star_image_text"
+                    style="@style/row_text_title_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/medium_margin" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginEnd="@dimen/medium_margin">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/fork_image"
+                    android:layout_width="@dimen/medium_margin"
+                    android:layout_height="@dimen/medium_margin"
+                    android:layout_marginEnd="@dimen/xx_small_margin" />
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/fork_image_text"
+                    style="@style/row_text_title_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </com.example.gojekdemo.util.ExpandableLinearLayout>
+
+</LinearLayout>

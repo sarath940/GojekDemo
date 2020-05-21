@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="retry_main_text_color">#4A4A4A</color>
+    <color name="retry_sub_main_text_color">#929292</color>
+    <color name="retry_button_text_color">#31B057</color>
+    <color name="menu_dialog_color">#FFFFFF</color>
+    <color name="sub_icons_text_color">#52575C</color>
+    <color name="row_divider_color">#E8E8E8</color>
+    <color name="header_text_color">#25282B</color>
+    <color name="shimmer_color">#BEBEBE</color>
+    <color name="color_ripple_1">#1b32A951</color>
+
+</resources>
